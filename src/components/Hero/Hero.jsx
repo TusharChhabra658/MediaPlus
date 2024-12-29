@@ -177,7 +177,7 @@ function Hero() {
           </div>
           <div className="para">Customize forms on Hubilo or import from HubSpot. Seamlessly push data to your CRM and enrich your marketing pipeline.</div>
         </div>
-        <img className="feature-sm-img" src="/src/assets/f4.png" alt="" />
+        <img className="feature-sm-img" src="/assets/f4.png" alt="" />
         <div className="feature-card" style={{backgroundColor:"rgb(253, 230, 221)"}}>
           <div className="f-text">Track your views - with detailed analytics</div>
           <div className="para">Unlock audience insights! Analyze media performance granularly to create better content and capture intent effectively.</div>

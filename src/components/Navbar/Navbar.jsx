@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar-container">
-        <div>Icon</div>
+        <div><img src="/assets/M.png" alt="" /></div>
         <div className="list-items">
           <li>Product <img src="/assets/down-arrow.png"/></li>
           <li>Customers <img src="/assets/down-arrow.png"/></li>
@@ -16,6 +16,10 @@ function Navbar() {
           <button className="login-button">Login</button>
           <button className="demo-button">Request a Demo</button>
         </div>
+      </div>
+      <div className="nav-mobile">
+        <img src="/assets/M.png" alt="" />
+        <img src="/assets/hamb.png" alt="" />
       </div>
     </>
   );

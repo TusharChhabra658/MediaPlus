@@ -16,22 +16,22 @@
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .req-button {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: white;
   padding: 2.5vh 2vw;
   background-color: #E4875D;
   border: 1px #E4875D;
   border-radius: 10px;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .hero-text {
@@ -46,9 +46,8 @@ h2 {
   border-radius: 2%;
   margin-top: 4vh;
   margin-bottom: 4vh;
-  width: 79vw;
+  max-width: 85vw;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 2px 2px 70px 3px rgb(255, 198, 178);
@@ -61,7 +60,8 @@ h2 {
 }
 
 .partners {
-  width: 95vw;
+  display: flex;
+  max-width: 95vw;
   height: max-content;
   margin-top: 20vh;
   margin-bottom: 20vh;
@@ -73,19 +73,21 @@ h2 {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  line-height: 0.5rem;
   margin-bottom: 3vh;
   text-wrap: wrap;
+  line-height: 1.5rem;
 }
 
 .headings > h1{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  margin-top: -0.2rem;
 }
 .headings > h2{
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .headings > h3{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: -0.5rem;
 }
 .card-holder {
   display: flex;
@@ -94,7 +96,7 @@ h2 {
   flex-direction: row;
   width: 90vw;
   gap: 3rem;
-  margin-top: 9rem;
+  margin-top: 5rem;
 }
 
 .card {
@@ -102,7 +104,7 @@ h2 {
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 25%;
+  max-width: 25%;
   height: 50vh;
   padding: 0rem 1rem;
   flex-direction: column;
@@ -112,15 +114,16 @@ h2 {
 }
 
 .card-top-text {
-  font-size: 6rem;
+  font-size: 5rem;
   background: -webkit-linear-gradient(#E4875D, rgb(255, 205, 187));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
+  margin-top: -2rem;
 }
 
 .card-mid-text {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   color: #E4875D;
   text-wrap: wrap;
   font-weight: 500;
@@ -128,7 +131,7 @@ h2 {
 }
 
 .card-end-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: lighter;
     margin-top: -2rem;
 }
@@ -145,7 +148,7 @@ h2 {
 
 .sub{
     width: 45vw;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 4rem;
     margin-top: 0rem;
@@ -166,8 +169,8 @@ h2 {
     justify-content: flex-start;
     width: 50%;
     flex-direction: column;
-    gap: 3rem;
-    padding: 2rem;
+    gap: 2rem;
+    padding: 1.5rem;
     height: 100vh;
 }
 
@@ -193,27 +196,27 @@ h2 {
   line-height: 2.2rem;
   flex-direction: row;
   color: rgb(102, 102, 102);
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: 1px solid rgb(216, 216, 216);
   border-radius: 2rem;
   font-weight: 500;
-  padding: 3.3rem 2rem;
+  padding: 2rem 1rem;
   text-wrap: wrap;
 }
 
 .testimonial-container{
+  display: flex;
+  max-width: 100%;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
 
 .test{
-  width: 100vw;
+  max-width: 100%;
   height: fit-content;
-  transition: transform 0.2s ease-out;
-  transform: translateX(100);
 }
 
-.left-arrow{
+/* .left-arrow{
   position: relative;
   top: -91vh;
   left: 7vw;
@@ -224,7 +227,7 @@ h2 {
   position: relative;
   top: -101.5vh;
   left: 88vw;
-}
+} */
 
 .video-container{
   display: flex;
@@ -235,15 +238,15 @@ h2 {
 }
 
 .video-headings > h1{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 2rem;
 }
 .video-headings > h2{
-  font-size: 2rem;
+  font-size: 1.4rem;
   line-height: 0;
 }
 .video-headings > h3{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .video{
@@ -268,9 +271,8 @@ h2 {
 
 .label-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  max-width: 90vw;
   background-image: linear-gradient(90deg, rgba(246,153,111,1) 40%, rgba(251,192,137,1) 80%);
   padding: 3rem;
   gap: 1rem;
@@ -279,24 +281,24 @@ h2 {
 }
 
 .label1,.label2,.label3{
-  width: 100%;
-  font-size: 7.5rem;
+  display: flex;
+  font-size: 5.5rem;
   font-weight: 600;
   background: linear-gradient(#eac2af,white);
   background-clip: text;
 }
 .label1{
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-top: 3vh;
 }
 
 .label2{
-  margin-left: 55vw;
+  margin-left: 28vw;
   margin-top: 3vh;
 }
 
 .label3{
-  margin-left: 90vw;
+  margin-left: 42vw;
   margin-top: 3vh;
 }
 
@@ -620,6 +622,7 @@ h2 {
   }
   
   .label1,.label2,.label3{
+    display: flex;
     max-width: 100%;
     font-size: 3.2rem;
     font-weight: 600;
