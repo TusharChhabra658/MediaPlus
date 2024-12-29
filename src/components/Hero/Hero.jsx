@@ -147,7 +147,7 @@ function Hero() {
                   toggleOpen();
                   setValue("4");
                 }}
-                src="/src/assets/add.png"
+                src="/assets/add.png"
                 alt=""
               />
             </div>
@@ -185,7 +185,7 @@ function Hero() {
         
       </div>
       <div className="testimonial-container">
-        <img className="test" src={`/src/assets/t${image}.png`} alt="" />
+        <img className="test" src={`/assets/t${image}.png`} alt="" />
         {/* <img
           className="left-arrow"
           onClick={() => (image > 1 ? setImage(image - 1) : setImage(1))}
