@@ -225,15 +225,15 @@ function Hero() {
       </div>
       <div className="label-container">
         <div className="label1">
-          <span id="your">Your</span>
+          <span id="your">Your&nbsp;</span>
           <span id="text"> Videos</span>{" "}
         </div>
         <div className="label2">
-          <span id="your">Your</span>
+          <span id="your">Your&nbsp;</span>
           <span id="text"> Brand</span>{" "}
         </div>
         <div className="label3">
-          <span id="your">Your</span>
+          <span id="your">Your&nbsp;</span>
           <span id="text"> Website</span>{" "}
         </div>
       </div>
