@@ -40,9 +40,9 @@ function Hero() {
           </div>
         </div>
         <div className="lower-hero">
-          <img className="ss1" src="/src/assets/ss1.png" alt="" />
+          <img className="ss1" src="/assets/ss1.png" alt="" />
         </div>
-        <img className="partners" src="/src/assets/partners.png" alt="" />
+        <img className="partners" src="/assets/partners.png" alt="" />
         <div className="card-container">
           <div className="headings">
             <h2
@@ -107,7 +107,7 @@ function Hero() {
                   toggleOpen();
                   setValue("1");
                 }}
-                src="/src/assets/add.png"
+                src="/assets/add.png"
                 alt=""
               />
             </div>
@@ -119,7 +119,7 @@ function Hero() {
                   toggleOpen();
                   setValue("2");
                 }}
-                src="/src/assets/add.png"
+                src="/assets/add.png"
                 alt=""
               />
             </div>
@@ -133,7 +133,7 @@ function Hero() {
                   toggleOpen();
                   setValue("3");
                 }}
-                src="/src/assets/add.png"
+                src="/assets/add.png"
                 alt=""
               />
             </div>
@@ -153,24 +153,24 @@ function Hero() {
             </div>
           </div>
           <div className="feature-images">
-            <img className="f-img" src={`/src/assets/f${value}.png`} alt="" />
+            <img className="f-img" src={`/assets/f${value}.png`} alt="" />
           </div>
         </div>
       </div>
       <div className="features-sm">
-        <img className="feature-sm-img" src="/src/assets/f1.png" alt="" />
+        <img className="feature-sm-img" src="/assets/f1.png" alt="" />
         <div className="feature-card" style={{backgroundColor:"rgb(251, 255, 231)"}}>
           <div className="f-text">
             Curate your video media collection with an AI powered library
           </div>
           <div className="para">End manual video uploads and tedious metadata tasks! Hubilo AI automates SEO-optimised metadata creation along with tags and categories mapped to you media in minutes.</div>
         </div>
-        <img className="feature-sm-img" src="/src/assets/f2.png" alt="" />
+        <img className="feature-sm-img" src="/assets/f2.png" alt="" />
         <div className="feature-card" style={{backgroundColor:"rgb(231, 240, 254)"}}>
           <div className="f-text">Build,Brand & Publish your Media+</div>
         <div className="para">Publish your on-demand media faster than ever using Media+. Add your custom branding and host all your media on your website or any other custom URL of your choice.</div>
         </div>
-        <img className="feature-sm-img" src="/src/assets/f3.png" alt="" />
+        <img className="feature-sm-img" src="/assets/f3.png" alt="" />
         <div className="feature-card" style={{backgroundColor:"rgb(254, 245, 235)"}}>
           <div className="f-text">
             Gate your media, capture leads, and connect your CRM - it's easy
@@ -189,14 +189,14 @@ function Hero() {
         {/* <img
           className="left-arrow"
           onClick={() => (image > 1 ? setImage(image - 1) : setImage(1))}
-          src="/src/assets/left-arrow.png"
+          src="/assets/left-arrow.png"
           alt=""
         />
 
         <img
           className="right-arrow"
           onClick={() => (image < 4 ? setImage(image + 1) : setImage(4))}
-          src="/src/assets/right-arrow.png"
+          src="/assets/right-arrow.png"
           alt=""
         /> */}
       </div>
@@ -220,7 +220,7 @@ function Hero() {
           </h3>
         </div>
         <div className="video">
-          <img className="ss1" src="/src/assets/ss1.png" alt="" />
+          <img className="ss1" src="/assets/ss1.png" alt="" />
         </div>
       </div>
       <div className="label-container">

@@ -6,10 +6,10 @@ function Navbar() {
       <div className="navbar-container">
         <div>Icon</div>
         <div className="list-items">
-          <li>Product <img src="/src/assets/down-arrow.png"/></li>
-          <li>Customers <img src="/src/assets/down-arrow.png"/></li>
-          <li>Resources <img src="/src/assets/down-arrow.png"/></li>
-          <li>About us <img src="/src/assets/down-arrow.png"/></li>
+          <li>Product <img src="/assets/down-arrow.png"/></li>
+          <li>Customers <img src="/assets/down-arrow.png"/></li>
+          <li>Resources <img src="/assets/down-arrow.png"/></li>
+          <li>About us <img src="/assets/down-arrow.png"/></li>
           <li>Plans</li>
         </div>
         <div className="buttons-container">
